@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerConsole", "SeverConsole\SeverConsole.vcxproj", "{FF0031FE-F1C2-4680-9F50-F062A7531B27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerCore", "SeverCore\SeverCore.vcxproj", "{444DC96F-43E5-4DA5-B421-88C20615A98B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Include", "Include", "{6A3D4CA4-581A-402E-9C1A-B6FADE861495}"
+	ProjectSection(SolutionItems) = preProject
+		include\defs.h = include\defs.h
+		include\NetMsgDef.h = include\NetMsgDef.h
+		include\NetServer.h = include\NetServer.h
+		include\NetSession.h = include\NetSession.h
+		include\Sys.h = include\Sys.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF0031FE-F1C2-4680-9F50-F062A7531B27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF0031FE-F1C2-4680-9F50-F062A7531B27}.Debug|Win32.Build.0 = Debug|Win32
+		{FF0031FE-F1C2-4680-9F50-F062A7531B27}.Release|Win32.ActiveCfg = Release|Win32
+		{FF0031FE-F1C2-4680-9F50-F062A7531B27}.Release|Win32.Build.0 = Release|Win32
+		{444DC96F-43E5-4DA5-B421-88C20615A98B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{444DC96F-43E5-4DA5-B421-88C20615A98B}.Debug|Win32.Build.0 = Debug|Win32
+		{444DC96F-43E5-4DA5-B421-88C20615A98B}.Release|Win32.ActiveCfg = Release|Win32
+		{444DC96F-43E5-4DA5-B421-88C20615A98B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
